@@ -1,0 +1,27 @@
+cell_1_1	= 45
+cell_1_2	= 29
+cell_1_3	= 54
+cell_1_4	= 51
+cell_1_5	= 47
+cell_1_6	= 52
+
+cell_2_1	= 33
+cell_2_2	= 32
+cell_2_3	= 31
+cell_2_4	= 46
+cell_2_5	= 34
+cell_2_6	= 50
+
+cell_3_1	= 49
+cell_3_2	= 38
+cell_3_3	= 41
+cell_3_4	= 37
+cell_3_5	= 39
+cell_3_6	= 55
+
+enter		= 8
+add			= 9
+del			= 10
+clear		= 11
+lang		= 14
+mode		= 15

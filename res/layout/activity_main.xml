@@ -1,0 +1,179 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:configChanges="keyboardHidden|orientation"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/text_showText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    <RadioButton
+        android:id="@+id/inputB11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_showText"
+        android:layout_below="@+id/text_showText"
+        android:layout_marginTop="52dp"
+        android:clickable="false" />
+
+    <RadioButton
+        android:id="@+id/inputB12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/inputB11"
+        android:layout_below="@+id/inputB11"
+        android:clickable="false" />
+
+    <RadioButton
+        android:id="@+id/inputB13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/inputB12"
+        android:layout_below="@+id/inputB12"
+        android:clickable="false" />
+
+    <RadioButton
+        android:id="@+id/inputB15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/inputB13"
+        android:layout_alignLeft="@+id/inputB14"
+        android:clickable="false" />
+
+    <RadioButton
+        android:id="@+id/inputB16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/inputB13"
+        android:layout_alignBottom="@+id/inputB13"
+        android:layout_alignLeft="@+id/inputB15"
+        android:clickable="false" />
+
+    <RadioButton
+        android:id="@+id/inputB21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/inputB14"
+        android:layout_alignBottom="@+id/inputB14"
+        android:layout_toRightOf="@+id/inputB14" />
+
+    <RadioButton
+        android:id="@+id/inputB22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/inputB15"
+        android:layout_alignBottom="@+id/inputB15"
+        android:layout_toRightOf="@+id/inputB15" />
+
+    <RadioButton
+        android:id="@+id/inputB23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/inputB16"
+        android:layout_alignBottom="@+id/inputB16"
+        android:layout_toRightOf="@+id/inputB16" />
+
+    <RadioButton
+        android:id="@+id/inputB25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/inputB22"
+        android:layout_alignBottom="@+id/inputB22"
+        android:layout_alignLeft="@+id/inputB24" />
+
+    <RadioButton
+        android:id="@+id/inputB31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/inputB24"
+        android:layout_alignBottom="@+id/inputB24"
+        android:layout_toRightOf="@+id/inputB24" />
+
+    <RadioButton
+        android:id="@+id/inputB24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/inputB25"
+        android:layout_toRightOf="@+id/inputB21" />
+
+    <RadioButton
+        android:id="@+id/inputB26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputB22"
+        android:layout_toRightOf="@+id/inputB22" />
+
+    <RadioButton
+        android:id="@+id/inputB32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/inputB31"
+        android:layout_below="@+id/inputB31" />
+
+    <RadioButton
+        android:id="@+id/inputB33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/inputB32"
+        android:layout_below="@+id/inputB32" />
+
+    <RadioButton
+        android:id="@+id/inputB34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/inputB31"
+        android:layout_alignBottom="@+id/inputB31"
+        android:layout_toRightOf="@+id/inputB31" />
+
+    <RadioButton
+        android:id="@+id/inputB35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/inputB34"
+        android:layout_below="@+id/inputB34" />
+
+    <RadioButton
+        android:id="@+id/inputB36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/inputB35"
+        android:layout_below="@+id/inputB35" />
+
+    <EditText
+        android:id="@+id/text_brailleString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/inputB21"
+        android:layout_alignLeft="@+id/inputB11"
+        android:layout_alignRight="@+id/text_showText"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="TextView" />
+
+    <RadioButton
+        android:id="@+id/inputB14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/inputB11"
+        android:layout_alignBottom="@+id/inputB11"
+        android:layout_toRightOf="@+id/inputB11"
+        android:clickable="false" />
+
+</RelativeLayout>
